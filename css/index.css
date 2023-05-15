@@ -1,0 +1,29 @@
+header{}
+nav{
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+div{
+    padding-right: 16px;
+    padding-left: 16px;
+    max-width: 1024px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+ul{
+
+    padding: 0;
+    align-items: center;
+    gap: 8px;
+
+}
+
+a{
+    color: black;
+    
+}
