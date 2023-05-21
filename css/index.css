@@ -12,6 +12,29 @@
     padding-bottom: 1rem;
   }
   
+  .hero{
+    position: relative;
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    overflow: hidden;
+
+  }
+
+.hero::before{
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 100%;
+    z-index: -1;
+    width: 100vh;
+    height: 100vh;
+    transform: translate(-50%,-50%);
+    border-radius: 50%;
+    background-color: #006341;
+
+
+}
   .container {
     padding-right: 1rem;
     padding-left: 1rem;
@@ -61,3 +84,4 @@
   .gap-xs {
     gap: 1rem;
   }
+
