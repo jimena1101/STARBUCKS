@@ -140,3 +140,8 @@
   .color-primary {
     color: #006341;
   }
+
+  .animate__bounce{
+    animation-iteration-count :infinite;
+  }
+  
